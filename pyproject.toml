@@ -1,0 +1,20 @@
+[project]
+name = "goit-rdb-fp"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "duckdb>=2.0.0",
+    "gdown>=6.5.1",
+    "pandas>=3.1.1",
+    "pgserver>=0.1.4",
+    "psycopg2-binary>=2.9.13",
+    "sqlalchemy>=2.1.8",
+    "sqlparse>=0.6.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.4",
+]
